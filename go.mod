@@ -1,8 +1,9 @@
-module github.com/pewssh/onedrive
+module github.com/pewssh/onedrive/onedrive
 
-go 1.15
+go 1.22.4
 
 require (
-	github.com/h2non/filetype v1.1.1
-	golang.org/x/oauth2 v0.0.0-20210313182246-cd4f82c27b84
+	github.com/h2non/filetype v1.1.3
+	github.com/pewssh/onedrive v0.0.0-20241031041019-4128d04e9c33
+	golang.org/x/oauth2 v0.23.0
 )
