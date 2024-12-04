@@ -1,4 +1,4 @@
-module github.com/pewssh/onedrive/onedrive
+module github.com/pewssh/onedrive
 
 go 1.22.4
 
