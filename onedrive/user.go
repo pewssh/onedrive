@@ -15,7 +15,6 @@ type User struct {
 	Id          string `json:"id"`
 	DisplayName string `json:"displayName"`
 	Email       string `json:"mail"`
-	
 }
 
 // OneDrive API docs: https://learn.microsoft.com/en-us/graph/api/user-get?view=graph-rest-1.0&tabs=http

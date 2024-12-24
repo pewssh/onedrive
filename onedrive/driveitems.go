@@ -33,18 +33,19 @@ type OneDriveDriveItemsResponse struct {
 // DriveItem represents a OneDrive drive item.
 // Ref https://docs.microsoft.com/en-us/graph/api/resources/driveitem?view=graph-rest-1.0
 type DriveItem struct {
-	Name        string           `json:"name"`
-	Id          string           `json:"id"`
-	DownloadURL string           `json:"@microsoft.graph.downloadUrl"`
-	Description string           `json:"description"`
-	Size        int64            `json:"size"`
-	WebURL      string           `json:"webUrl"`
-	Audio       *OneDriveAudio   `json:"audio"`
-	Video       *OneDriveVideo   `json:"video"`
-	Image       *OneDriveImage   `json:"image"`
-	Photo       *OneDrivePhoto   `json:"photo"`
-	File        *DriveItemFile   `json:"file"`
-	Folder      *DriveItemFolder `json:"folder"`
+	Name         string           `json:"name"`
+	Id           string           `json:"id"`
+	DownloadURL  string           `json:"@microsoft.graph.downloadUrl"`
+	Description  string           `json:"description"`
+	Size         int64            `json:"size"`
+	WebURL       string           `json:"webUrl"`
+	Audio        *OneDriveAudio   `json:"audio"`
+	Video        *OneDriveVideo   `json:"video"`
+	Image        *OneDriveImage   `json:"image"`
+	Photo        *OneDrivePhoto   `json:"photo"`
+	File         *DriveItemFile   `json:"file"`
+	Folder       *DriveItemFolder `json:"folder"`
+	LastModified string           `json:"lastModifiedDateTime"`
 }
 
 // DriveItemFile represents a OneDrive drive item file info.
